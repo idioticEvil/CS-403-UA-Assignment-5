@@ -75,12 +75,14 @@ bool Shape::test(const vector<string>& cond) const {
         string op = cond[i + 1];
         string value = cond[i + 2];
 
-        if (name == "type") { // Do lexicographical comparisions
+        if (name == "type") { 
+            // Do lexicographical comparisions
             if (!compareString(getType(), op, value)) return false;
         } else if (name == "area") { 
             double area = getArea();
             double convertedValue;
 
+            // Check if the value can be converted to a double
             try {
                 convertedValue = stod(value);
             } catch (const std::invalid_argument&) {
@@ -88,11 +90,13 @@ bool Shape::test(const vector<string>& cond) const {
                 return false;
             }
 
+            // Do numeric comparisions for area
             if(!compareNumeric(area, op, convertedValue)) return false;
         } else if (name == "volume") {
             double volume = getVolume();
             double convertedValue;
 
+            // Check if the value can be converted to a double
             try {
                 convertedValue = stod(value);
             } catch (const std::invalid_argument&) {
@@ -100,8 +104,10 @@ bool Shape::test(const vector<string>& cond) const {
                 return false;
             }
 
+            // Do numeric comparisions for volume
             if(!compareNumeric(volume, op, convertedValue)) return false;
         } else {
+            // If the name is not recognized, print an error message, and return false
             cout << name << ": invalid column." << endl;
             return false;
         }
