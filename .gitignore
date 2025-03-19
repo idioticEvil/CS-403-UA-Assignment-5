@@ -1,7 +1,6 @@
 /.vscode
 /Box.o
 /Cylinder.o
-/Makefile
 /Reading.o
 /Shape.o
 /Sphere.o
@@ -10,7 +9,6 @@
 /a.out
 /edge_cases.dat
 /main.o
-/shapes.dat
 /test.out
 /test_main.cpp
 /test_main.o
