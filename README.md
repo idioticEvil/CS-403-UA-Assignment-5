@@ -3,7 +3,13 @@
 **Author:** Walter Mink  
 **Course:** CS 403 – Programming Languages  
 **Institution:** The University of Alabama  
-**Semester:** Spring 2025
+
+---
+
+## Academic Integrity Notice
+
+**WARNING:** This repository contains code that I, Walter Mink, developed independently for my own studies. 
+To be completely clear, directly copying, submitting, or presenting my work as your own is considered academic misconduct / plagarism, not just at the University of Alabama, but at practically every university in existence. My code is purely here for reference, educational insight, and to fill out my portfolio. Under no circumstances should you misuse or plagarize this code, and I claim no responsibility for consequences resulting from you ignoring this warning and doing so.
 
 ---
 
@@ -67,17 +73,3 @@ Clean compiled files:
 ```shell
 make clean
 ```
-
----
-
-## Academic Integrity Notice
-
-**Important:** This repository contains code that I, Walter Mink, developed independently for educational purposes. Directly copying, submitting, or presenting my work as your own is considered academic misconduct and violates the University of Alabama’s Code of Academic Conduct.
-
-My code is publicly available solely for reference and educational insight. I take no responsibility for any consequences resulting from misuse or plagiarism of this code.
-
----
-
-**Disclaimer:**  
-This project is archived here purely for personal reference and future learning opportunities.
-
